@@ -1,0 +1,50 @@
+Tools & Softwares
+==================
+1. NodeJS 
+   https://nodejs.org/en/download
+
+   To Verify NodeJS is installed, Run the below command in Terminal/CMD
+    node -v
+
+
+2. Visual Studio Code (Code Editor)
+   https://code.visualstudio.com/download
+
+
+3. Github Repository:
+   https://github.com/sanjaysamantra1/eureka_20_april_2026
+
+
+
+Web Development
+===============
+-Developing WebSites
+
+
+1. FrontEnd: User Interface ( Look & Feel )
+        HTML : Content ( div, paragraph, image, table, list , form, audio)
+        CSS : Styling ( Border , background, color, margin, padding )
+        Bootstrap : CSS Library ( pre-defined css classes )
+        Javascript : Behaviour of a webpage 
+        Angular/React/Vue : Javascript frameworks (RAD, CLI , DataBinding , Routing , Form )
+
+2. BackEnd: Develop REST APIs
+            https://fakestoreapi.com/products
+
+3. DataBase:  Holds the data ( Oracle, mySql, MongoDb )
+
+
+
+
+Product List page
+=================
+1. Create an HTML File ( product_list.html )
+
+2. !  ( Emmet / Shortcuts ) add boilerplate Code
+   https://docs.emmet.io/cheat-sheet/
+
+3. Add HTML , CSS , Javascript Code
+
+4. To Open/Run HTML File in Browser
+   a. install vscode extension (Open in Browser / Live Server)
+   b. alt+b   /  alt+shift+b
