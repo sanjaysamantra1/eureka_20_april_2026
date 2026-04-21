@@ -29,3 +29,36 @@ How to use CSS in HTML Files
 3. external css ( Application Level)
     a. create a separate .css file ( styles.css )
     b. include that css file into HTML file using <link>
+
+
+
+How to use Bootstrap in HTML Files
+==================================
+-Bootstrap is a CSS Library
+-PreDefined CSS Classes
+-Maintained By Twitter
+-Bootstrap 5 is the latest version
+-Official Link : https://getbootstrap.com/
+
+Add CDN link of Bootstrap in HTML file:
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+
+
+
+Types of Javascript
+====================
+1. internal Javascript
+   <script></script>   Page Level
+
+2. external Javascript
+   a. create separate .js file and write javascript code
+   b. include that .js file in HTML file using <script>
+
+
+
+HTML Assignment-1:
+=================
+1. Create an HTML page using ul and li to display a list of your favorite foods.
+2. Write HTML code to create a nested list showing subjects and their topics.
+3. Design a dropdown menu with 10 countries
+4. Create an HTML table to display student details (roll, Name, Class, Marks)
