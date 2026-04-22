@@ -7,3 +7,52 @@ Math :  max(), min(), sqrt()
 Array : push(), pop(), shift(), reduce()
 Object : assign(), groupby(), keys(), values()
 JSON :  stringify(), parse()
+
+
+Window Methods
+==============
+alert() : Display Informative message
+          Message + Ok
+
+confirm() : User Confirmation
+            Message + Ok(True) , Cancel(False)
+
+prompt() : To Collect User input
+           inputBox + Message + Ok,Cancel            
+
+
+// Ask User to enter a number & check if that number is Even or Odd
+
+
+
+Datatypes
+=========
+1. Primitive
+        number : 5 , 5.4 , -2.3 , 8.1111111
+        string : 'sachin' , "virat" , '10' , 'true'
+        boolean : true , false
+        undefined : undefined
+        bigint  
+        symbol
+
+2. non-primitive
+        Object: {}    []
+
+
+
+undefined vs null
+==================
+1. when a variable is declared without a value, that variable by default will have undefined value 
+   a variable can be declared with a null value.
+	var a; 			//a=undefined
+	var b = null;  //b=null
+	
+2. typeof undefined; // undefined
+   typeof null; //object
+
+
+
+Assignment:
+==========
+1. Ask user to enter 2 numbers, find the addition, subtraction, multiplication of those 2 numbers
+2. Ask user to enter 2 numbers, find who is greater

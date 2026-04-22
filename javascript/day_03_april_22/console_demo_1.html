@@ -15,5 +15,11 @@
     console.log(employees);
 
     console.table(employees);
-    console.table(employees, ['name','salary']);
+    console.table(employees, ['name', 'salary']);
+
+    console.time('myForLoop')
+    for (let i = 1; i <= 10000; i++) {
+        console.log(` i is ${i}`)
+    }
+    console.timeEnd('myForLoop')
 </script>
