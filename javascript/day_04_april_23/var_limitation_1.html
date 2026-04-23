@@ -1,0 +1,16 @@
+<script>
+    // var variables dont support block scope
+
+    function f1() {
+        if (true) {
+            var a = 10;
+            console.log(`inside block a: ${a}`);
+        }
+        console.log(`outside block a: ${a}`);
+    }
+    f1();
+
+    // even though 'a' is declared inside a block, its scope is not block, its scope is function
+    // it is accessible outsidde the block
+    // this is a limitation of 'var'
+</script>
