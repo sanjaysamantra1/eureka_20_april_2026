@@ -1,0 +1,17 @@
+<script>
+    var x = 1;
+    function outer() {
+        var x = 2;
+        if (true) {
+            var x = 3;
+            let y = 4;
+            console.log('Block Scope- x : ', x)
+            console.log('Block Scope- y : ', y)
+        }
+        console.log('Function Scope-x', x); // 3
+        // console.log('Function Scope-y', y); // we cannt access block scoped variable y outside the block
+    }
+    outer();
+
+    console.log('Global Scope- x : ', x)
+</script>

@@ -1,0 +1,21 @@
+<script>
+    console.log('Global scope this value : ', this); // this=window
+
+    firstName = 'rohit'
+    lastName = 'sharma'
+
+    let user = {
+        firstName: 'Virat',
+        lastName: 'Kohli',
+        fullName1: function () {
+            console.log('FullName-1:', this); // this= user 
+            console.log(this.firstName, this.lastName);
+        },
+        fullName2: () => {
+            console.log('FullName-2:', this); // this=window
+            console.log(this.firstName, this.lastName);
+        }
+    }
+    user.fullName1(); // Virat Kohli
+    user.fullName2(); // undefined undefined
+</script>

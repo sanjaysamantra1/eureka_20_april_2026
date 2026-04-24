@@ -1,0 +1,56 @@
+Functions
+=========
+1. Pre-Defined : 
+    -these functions are already there, developers just use them
+    -console.log(), window.alert()
+
+2. user-defined : developers write the functions and developers use
+
+
+1. Function Declaration
+2. Function Expression
+3. Arrow Function
+
+
+Function Declaration vs Function Expression
+============================================
+1. Function Declarations are named , Function Expressions are anonymous
+2. Function Declarations are hoisted , Function Expressions are not hoisted
+ 
+
+
+Arrow Function
+==============
+-shorter in syntax
+-Anonymous
+-are not hoisted
+-function keyword is not required
+-function body is optional
+-return is optional
+
+
+HigherOrder Function : A function that takes another function as arguement.
+callback function : A function that is passed as arguement to another function
+
+in this example map() is higherorder and incrementby5 is callback function
+
+    function incrementBy5(value) {
+        value = value + 5;
+        return value;
+    }
+    let result = arr.map(incrementBy5);
+
+
+
+Arrow Function Limitations
+==========================
+1. Arrow functions shouldn't be used as object methods
+2. Arrow functions shouldn't be used as event handlers
+
+
+Assignments:
+=============
+1. write a function to find factorial of a number
+2. write a function to check if a number is prime or not.
+3. write a function to calculate simple & compound interest.
+
