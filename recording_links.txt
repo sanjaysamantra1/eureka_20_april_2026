@@ -17,3 +17,7 @@ Passcode: ?a71QS+U
 day_05_april_24:
 https://zoom.us/rec/share/8rnkmjX7Eo1c_KepN6gm662ffCr5k7cnEcjTi02Mwx0BjilGPd5oPCjymahIJ1Ub.O1DYJiKoCD38ebbX 
 Passcode: k8^*J6n0
+
+day_06_april_27:
+https://zoom.us/rec/share/QT3vBjCKk4OeW99iXwogjD7zAvGA_MY3qUi1HS35MBG8pC9SbNNvhZ-MySPEB96_.0KXR94MVZ2MiB6GV 
+Passcode: k7s$eD%2
