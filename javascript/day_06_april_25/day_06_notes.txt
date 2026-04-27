@@ -1,0 +1,11 @@
+Arrow Function Benefits
+=======================
+-Arrow functions don't have their own 'this' , they always use 'this' from parent/lexical scope
+
+
+
+Closure
+=======
+-an inner function retains access to its outer function's variables 
+-closure will not be seen for outer functions, 
+-closure will be seen for inner functions only if the inner function accesses outer function data.

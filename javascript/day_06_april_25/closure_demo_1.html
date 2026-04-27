@@ -1,0 +1,18 @@
+<script>
+    var a = 10;  // Global
+    let b = 20;
+    const c = 30; // Script
+
+    function f1() {
+        let d = 40;
+        function f2() {
+            let e = 50;
+            console.log(a, b, c, d, e);
+        }
+        f2();
+        console.dir(f2)
+    }
+    f1();
+    console.dir(f1)
+
+</script>
