@@ -9,3 +9,10 @@ Closure
 -an inner function retains access to its outer function's variables 
 -closure will not be seen for outer functions, 
 -closure will be seen for inner functions only if the inner function accesses outer function data.
+
+
+
+Assignment:
+============
+1. ask user to enter a number, chek if the number is palindrome  (121)
+2. ask user to enter a number, chek if the number is Armstrong  (153)
