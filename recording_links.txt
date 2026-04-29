@@ -25,3 +25,7 @@ Passcode: k7s$eD%2
 day_07_april_28:
 https://zoom.us/rec/share/yLT48a3pqEEVAF4uMpY2e4POJS2mZNEC1-XTv5zujU3Ys3sN0FJ2FIixryAc6GMl.AcYT9mxXbw3HmRCT 
 Passcode: 0Q1a?XbJ
+
+day_08_april_29:
+https://zoom.us/rec/share/XEtImU5ff_zJDlO5hw7ld2TmtbngnNQ_Bw4UyAJCbwzhDGdxdJxAbWgheuUw5Xle.PpXKb9XPfiX0DPQy 
+Passcode: 56&tCtYi
