@@ -1,0 +1,21 @@
+<script>
+    let str = '([{}])';
+
+    let stack = [];
+    let charMap = {
+        ')': '(',
+        '}': '{',
+        ']': '[',
+    }
+
+    for (char of str) {
+        let last_element = stack[stack.length - 1];
+
+        if ('([{'.includes(char)) {
+            stack.push(char);
+        } else if (last_element === charMap[char]) {
+            stack.pop()
+        }
+    }
+    console.log(stack.length == 0 ? 'valid' : 'invalid')
+</script>

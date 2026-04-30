@@ -1,0 +1,12 @@
+<script>
+    let input = 'Rabindra Nath Tagore';
+    let words = input.split(' ');
+    let result = '';
+
+    for (i = 0; i < words.length - 1; i++) {
+        let first_char = words[i][0];
+        result = result + first_char + '.';
+    }
+    let last_word = words[words.length - 1];
+    console.log(result + last_word)
+</script>

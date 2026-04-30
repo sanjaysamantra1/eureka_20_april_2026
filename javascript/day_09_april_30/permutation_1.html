@@ -1,0 +1,16 @@
+<script>
+    function permute(str, res = '') {
+        if (!str.length) {
+            console.log(res);
+        }
+        for (let i = 0; i < str.length; i++) {
+            let currentChar = str[i];
+            let remainingChar = str.substr(0, i) + str.substr(i + 1);
+            permute(remainingChar, res + currentChar)
+        }
+    }
+
+    permute('ABC');
+
+    // ABC   ACB   BAC   BCA   CAB   CBA
+</script>
