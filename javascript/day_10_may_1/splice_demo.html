@@ -1,0 +1,13 @@
+<script>
+    let cars = ['Tata', 'Honda', 'Maruti', 'Hyundai'];
+
+    // splice(index, deleteCount , items to add)
+    cars.splice(1, 2, 'Mahindra', 'Toyota')
+    console.log(cars); // ['Tata', 'Mahindra', 'Toyota', 'Hyundai']
+
+
+    let arr = [10, 20, 30, 40];
+    let newArr = arr.toSpliced(1, 2, 15, 25, 35);
+    console.log(arr);    // [10, 20, 30, 40]
+    console.log(newArr); // [10, 15, 25, 35, 40]
+</script>
