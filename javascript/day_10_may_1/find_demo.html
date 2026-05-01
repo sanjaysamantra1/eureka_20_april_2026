@@ -10,5 +10,21 @@
 
     // Display the first female employee
     let first_female_emp = employees.find((emp) => emp.gender == 'female');
-    console.log('first_female_emp: ', first_female_emp)
+    console.log('first_female_emp: ', first_female_emp);
+
+    // index where  first female employee is present
+    let first_female_emp_index = employees.findIndex((emp) => emp.gender == 'female');
+    console.log('first_female_emp_index: ', first_female_emp_index)
+
+    // Display the last female employee
+    let last_female_emp = employees.findLast((emp) => emp.gender == 'female');
+    console.log('last_female_emp: ', last_female_emp);
+
+    // index where  last female employee is present
+    let last_female_emp_index = employees.findLastIndex((emp) => emp.gender == 'female');
+    console.log('last_female_emp_index: ', last_female_emp_index)
+
+    // Display All the Female Employees
+    let all_female_emp = employees.filter((emp) => emp.gender == 'female');
+    console.log('all_female_emp: ', all_female_emp);
 </script>

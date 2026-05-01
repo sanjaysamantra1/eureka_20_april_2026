@@ -33,3 +33,7 @@ Passcode: 56&tCtYi
 day_09_april_30:
 https://zoom.us/rec/share/nSuO9IDs-HQpsMoNQYDokayVWBMpJvBCkftOOzHq_h4vbHCFp-ZNLabSbae4rXXQ.2WBFdGkNxS3Ensgv 
 Passcode: 03+=3gyJ
+
+day_10_may_1:
+https://zoom.us/rec/share/fOaeTKVh4yPrIz-RFS1eUbr3SLD56UAb2fhxW3nULk4VqucHxnR8Ny3skkdejw.yNSopdfGf_jDz7d_ 
+Passcode: z0Q1U%Q^

@@ -1,0 +1,17 @@
+<script>
+    const products = [
+        { id: 101, name: "Wireless Mouse", category: "Electronics", price: 799, discount: 10, rating: 4.3, stock: 25 },
+        { id: 102, name: "Running Shoes", category: "Footwear", price: 2499, discount: 20, rating: 4.6, stock: 8 },
+        { id: 103, name: "Coffee Mug", category: "Home & Kitchen", price: 299, discount: 0, rating: 3.9, stock: 50 },
+        { id: 104, name: "Bluetooth Speaker", category: "Electronics", price: 1599, discount: 15, rating: 4.8, stock: 5 },
+        { id: 105, name: "Backpack", category: "Accessories", price: 1199, discount: 5, rating: 4.1, stock: 0 }
+    ];
+    // apply discount and add finalPrice field in every product
+    let newProducts = products.map((product) => {
+        // product.finalPrice = product.price - (product.price * product.discount / 100);
+        // return product;
+        return { ...product, finalPrice: product.price - product.discount }
+    })
+
+    console.log(newProducts);
+</script>
