@@ -1,0 +1,25 @@
+<script>
+    let employees = [
+        { id: 1, name: 'Amit Sharma', role: 'Manager', salary: 85000, status: 'Active', gender: 'male' },
+        { id: 2, name: 'Priya Verma', role: 'Developer', salary: 65000, status: 'Active', gender: 'female' },
+        { id: 3, name: 'Rahul Mehta', role: 'Tester', salary: 38000, status: 'Inactive', gender: 'male' },
+        { id: 4, name: 'Sneha Iyer', role: 'Developer', salary: 42000, status: 'Inactive', gender: 'female' },
+        { id: 5, name: 'Karan Singh', role: 'Manager', salary: 52000, status: 'Active', gender: 'male' },
+    ];
+    // By using Object.groupBy()
+    let grouped_employees = Object.groupBy(employees, (emp) => emp.gender);
+    console.log(grouped_employees)
+
+
+    // write own logic, without using groupBy
+    let result = {};
+    for (emp of employees) {
+        let gender_value = emp.gender; // male/female
+        if (result[gender_value]) {
+            result[gender_value].push(emp)
+        } else {
+            result[gender_value] = [emp]
+        }
+    }
+    console.log(result)
+</script>

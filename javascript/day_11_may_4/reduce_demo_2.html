@@ -1,0 +1,13 @@
+<script>
+    let str = 'entertainment';
+
+    let res = str.split('').reduce((obj, char) => {
+        if (obj[char]) {
+            obj[char] = obj[char] + 1
+        } else {
+            obj[char] = 1
+        }
+        return obj;
+    }, {});
+    console.log(res);
+</script>
