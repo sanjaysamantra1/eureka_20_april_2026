@@ -1,0 +1,14 @@
+<script>
+    let max_val = Math.max(10, 20, 30); // max() returns a value
+    console.log('max_val: ', max_val);
+
+    // fetch() return a Promise
+    fetch('https://jsonplaceholder.typicode.com/users').then(response => {
+        response.json().then(userArr => {
+            console.log(userArr)
+        })
+    }).catch(error => {
+        console.log(error)
+    })
+
+</script>
