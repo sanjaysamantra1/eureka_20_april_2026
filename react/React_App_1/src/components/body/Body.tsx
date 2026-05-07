@@ -1,5 +1,5 @@
 function Body(){
-  return <div>
+  return <div style={{"minHeight":"300px"}}>
     <div>This is Body Component</div>
   </div>
 }
