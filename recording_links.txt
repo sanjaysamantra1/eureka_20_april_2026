@@ -49,3 +49,7 @@ Passcode: 2b@B?vf8
 day_13_may_6(React_day_1)
 https://zoom.us/rec/share/AOKeDFAAQZZPbGkkChc3hGZWer5D3dRvdwxId1cZMYUpV7Fh_1_0hiOgBGe4OmHW.gJexVRS9BQZIfYHv 
 Passcode: !gGG5.?p
+
+day_14_may_7(React_day_2)
+https://zoom.us/rec/share/LMIDhWAaZefMVCVp6ByKNR1vFHx8bdYoaHlfRcQs8q8-_5AlVjgIsSNh6HY_3BcY.6w__6wOqH290TvtX 
+Passcode: hEv3&q@3
