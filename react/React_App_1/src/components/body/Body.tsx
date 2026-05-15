@@ -17,10 +17,10 @@ function Body() {
       {/* <div>This is Body Component</div> */}
       {/* <div>My react version is:: {React.version}</div> */}
       {/* <DataBinding /> */}
-      {/* <DataBindingAssignments /> */}
+      <DataBindingAssignments />
       {/* <ListDemo1 /> */}
       {/* <UserList /> */}
-      <ProductList></ProductList>
+      {/* <ProductList></ProductList> */}
     </div>
   );
 }
