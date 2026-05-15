@@ -69,3 +69,7 @@ Passcode: PFP7f0h$
 day_18_may_14(React_day_6)
 https://zoom.us/rec/share/cYh4fKUwMVjzZLmlrZsSTueI8zPTZifCcQilMZmPtgKmgROOql9SByvvBcxxENLH.OHqbRAjYxmuYO-Vj 
 Passcode: 4KU15L^D
+
+day_19_may_15(React_day_7)
+https://zoom.us/rec/share/Qh0VKi18vGssv46-_XM5PQapSUaqey6PkzPfLtMs3QIj-JMOmJcMMwGRHGjLKb1v.h0Td3U68REq2_I82 
+Passcode: V&cQBVW1
