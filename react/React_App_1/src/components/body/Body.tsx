@@ -5,6 +5,8 @@ import DataBindingAssignments from "../databinding_assignments/DataBindingAssign
 import ListDemo1 from "../listItem/ListDemo1";
 import UserList from "../userlist/UserList";
 import ProductList from "../productList/ProductList";
+import EmployeeList from "../listItem/EmployeeList";
+import TaskList from "../listItem/TaskList";
 
 function Body() {
   console.log(addition(10, 20));
@@ -17,10 +19,12 @@ function Body() {
       {/* <div>This is Body Component</div> */}
       {/* <div>My react version is:: {React.version}</div> */}
       {/* <DataBinding /> */}
-      <DataBindingAssignments />
+      {/* <DataBindingAssignments /> */}
       {/* <ListDemo1 /> */}
       {/* <UserList /> */}
       {/* <ProductList></ProductList> */}
+      {/* <EmployeeList /> */}
+      <TaskList />
     </div>
   );
 }
