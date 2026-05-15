@@ -1,46 +1,41 @@
 import { useState } from "react";
-
 export default function TaskList() {
-  let tasks = [
+  const [tasks, setTasks] = useState([
     { id: 1, title: "Complete Angular assignment", completed: false },
     { id: 2, title: "Review pull requests", completed: true },
     { id: 3, title: "Prepare project report", completed: false },
     { id: 4, title: "Attend team meeting", completed: true },
-    { id: 5, title: "Update documentation", completed: false },
-  ];
-
-  let [taskArr,setTaskArr] = useState(tasks);
-  const updateChecked = ()=>{
-    
-  }
-  const filterTasks = (selectedOption:string)=>{
-        let filteredTasks; 
-        if(selectedOption == 'all'){
-            filteredTasks = [...tasks];
-        }else if(selectedOption=='completed'){
-            filteredTasks = tasks.filter(task=>task.completed)
-        }else{
-            filteredTasks = tasks.filter(task=>!task.completed)
-        }
-        setTaskArr([...filteredTasks]);
-  }
- 
-
-  return <>
-    <h3 className="text-center">Task List</h3>
-
-    <select onChange={(e)=>filterTasks(e.target.value)}>
-        <option>all</option>
-        <option>completed</option>
-        <option>pending</option>
-    </select>
-    <ul>
-        {taskArr.map(task=>{
-            return <li key={task.id}>
-                <input type="checkbox" checked={task.completed} onChange={updateChecked} />
-                <span style={{textDecoration : task.completed?'line-through':'none'}}>{task.title} --- {task.completed.toString()}</span>
-            </li>
-        })}
-    </ul>
-  </>
+    { id: 5, title: "Update documentation", completed: false }
+  ]);
+  const [filter, setFilter] = useState("All");
+  const toggleTask = (id:number) => {
+    setTasks(tasks.map(task => task.id === id ? { ...task, completed: !task.completed } : task));
+  };
+  const filteredTasks = tasks.filter(task =>
+    filter === "Completed" ? task.completed :
+    filter === "Pending" ? !task.completed : true
+  );
+  const completedCount = tasks.filter(task => task.completed).length;
+  return (
+    <div>
+      <h2>Task List</h2>
+      <select value={filter} onChange={(e) => setFilter(e.target.value)}>
+        <option>All</option>
+        <option>Completed</option>
+        <option>Pending</option>
+      </select>
+      <br /><br />
+      {
+        filteredTasks.map(task => (
+          <div key={task.id}>
+            <input type="checkbox" checked={task.completed} onChange={() => toggleTask(task.id)} />
+            <span style={{ textDecoration: task.completed ? "line-through" : "none" }}>
+              {task.title}
+            </span>
+          </div>
+        ))
+      }
+      <h3>{completedCount} out of {tasks.length} tasks are completed</h3>
+    </div>
+  );
 }
