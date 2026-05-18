@@ -7,12 +7,13 @@ import UserList from "../userlist/UserList";
 import ProductList from "../productList/ProductList";
 import EmployeeList from "../listItem/EmployeeList";
 import TaskList from "../listItem/TaskList";
+import PropsDemo1 from "../props/PropsDemo1";
 
 function Body() {
-  console.log(addition(10, 20));
+  /*  console.log(addition(10, 20));
   console.log(sub(10, 20));
   console.log(mul(10, 20));
-  console.log(React);
+  console.log(React); */
 
   return (
     <div className="myBody" style={{ minHeight: "300px" }}>
@@ -24,7 +25,8 @@ function Body() {
       {/* <UserList /> */}
       {/* <ProductList></ProductList> */}
       {/* <EmployeeList /> */}
-      <TaskList />
+      {/* <TaskList /> */}
+      <PropsDemo1 name="Sanjay" msg="Good Morning" />
     </div>
   );
 }
