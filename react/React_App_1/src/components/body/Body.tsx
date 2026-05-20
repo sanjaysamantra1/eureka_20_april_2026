@@ -9,6 +9,7 @@ import EmployeeList from "../listItem/EmployeeList";
 import TaskList from "../listItem/TaskList";
 import PropsDemo1 from "../props/PropsDemo1";
 import MyModal from "../props/MyModal";
+import Counter from "../state/Counter";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -30,10 +31,10 @@ function Body() {
       {/* <ProductList></ProductList> */}
       {/* <EmployeeList /> */}
       {/* <TaskList /> */}
-      <PropsDemo1 name="Sanjay" msg="Good Morning" f1FromBody={f1FromBody} >
+      {/* <PropsDemo1 name="Sanjay" msg="Good Morning" f1FromBody={f1FromBody} >
           <h3>Dynamic Content-1 From first Parent</h3>
           <h3>Dynamic Content-2 From first Parent</h3>
-      </PropsDemo1>
+      </PropsDemo1> */}
       <hr />
       {/* <PropsDemo1 name="Sanjay" msg="Good Morning" >
           <h3>Dynamic Content-1 From second Parent</h3>
@@ -42,6 +43,8 @@ function Body() {
       {/* <MyModal>
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s' />
       </MyModal> */}
+
+      <Counter />
     </div>
   );
 }
