@@ -28,7 +28,7 @@ function Body() {
       {/* <DataBindingAssignments /> */}
       {/* <ListDemo1 /> */}
       {/* <UserList /> */}
-      {/* <ProductList></ProductList> */}
+      <ProductList></ProductList>
       {/* <EmployeeList /> */}
       {/* <TaskList /> */}
       {/* <PropsDemo1 name="Sanjay" msg="Good Morning" f1FromBody={f1FromBody} >
@@ -44,7 +44,7 @@ function Body() {
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s' />
       </MyModal> */}
 
-      <Counter />
+      {/* <Counter /> */}
     </div>
   );
 }
