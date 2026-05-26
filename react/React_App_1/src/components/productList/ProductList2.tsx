@@ -4,6 +4,13 @@ import productArr from './product_data';
 export default function ProductList2() {
   const [products,setProducts] = useState(productArr);
 
+  const categorySet = new Set();
+  categorySet.add('all')
+  for(let product of productArr){
+    categorySet.add(product.category)
+  }
+  let categoryArr = [...categorySet];
+
   const sortAsc =()=>{
     const sortedData = productArr.sort((p1,p2)=>p1.price-p2.price);
     setProducts([...sortedData]);
@@ -20,12 +27,29 @@ export default function ProductList2() {
     })
     setProducts([...filteredData]);
   }
+  const filterProductsBasedOncategory = (event: any )=>{
+    const selectedCategory = event.target.value;
+    let  filteredData;
+    if(selectedCategory == 'all'){
+        filteredData = [...productArr]
+    }else{
+        filteredData = productArr.filter(product=>product.category == selectedCategory)
+    }
+    setProducts([...filteredData]);
+  }
 
   return <>
     <h3 className="text-center">Product List</h3>
     <div className="container">
         <div className="row">
-            <div className="col-sm-6 offset-2">
+            <div className="col-sm-2">
+                <select onChange={filterProductsBasedOncategory}>
+                    {categoryArr.map((categoryInfo,ind)=>{
+                        return <option key={ind}>{categoryInfo}</option>
+                    })}
+                </select>
+            </div>
+            <div className="col-sm-6">
                 <input className='form-control' type="search" onChange={filterProducts}
                   placeholder='search...' />
             </div>
