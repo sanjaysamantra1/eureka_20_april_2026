@@ -10,6 +10,7 @@ import TaskList from "../listItem/TaskList";
 import PropsDemo1 from "../props/PropsDemo1";
 import MyModal from "../props/MyModal";
 import Counter from "../state/Counter";
+import ProductList2 from "../productList/ProductList2";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -28,7 +29,7 @@ function Body() {
       {/* <DataBindingAssignments /> */}
       {/* <ListDemo1 /> */}
       {/* <UserList /> */}
-      <ProductList></ProductList>
+      {/* <ProductList></ProductList> */}
       {/* <EmployeeList /> */}
       {/* <TaskList /> */}
       {/* <PropsDemo1 name="Sanjay" msg="Good Morning" f1FromBody={f1FromBody} >
@@ -45,6 +46,7 @@ function Body() {
       </MyModal> */}
 
       {/* <Counter /> */}
+      <ProductList2 />
     </div>
   );
 }
