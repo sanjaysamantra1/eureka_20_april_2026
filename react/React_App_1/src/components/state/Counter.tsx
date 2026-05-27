@@ -1,4 +1,5 @@
 import { useState } from "react";
+import UserCard from "../props/UserCard";
 
 export default function Counter() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,9 @@ export default function Counter() {
             setCount((prevState)=>prevState+1); // async code 
             console.log('count: ',count);
         }}>Increment</button>
+
+
+        <UserCard name="sanjay kumar" age={50} address='bangalore'></UserCard>
     </div>
   </>
 }

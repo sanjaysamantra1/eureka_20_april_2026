@@ -11,6 +11,9 @@ import PropsDemo1 from "../props/PropsDemo1";
 import MyModal from "../props/MyModal";
 import Counter from "../state/Counter";
 import ProductList2 from "../productList/ProductList2";
+import Demo1 from "../demo/Demo1";
+import AdditionDemo1 from "../form/AdditionDemo1";
+import AdditionDemo2 from "../form/AdditionDemo2";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -46,7 +49,10 @@ function Body() {
       </MyModal> */}
 
       {/* <Counter /> */}
-      <ProductList2 />
+      {/* <ProductList2 /> */}
+      {/* <Demo1 /> */}
+      <AdditionDemo1 />
+      <AdditionDemo2 />
     </div>
   );
 }
