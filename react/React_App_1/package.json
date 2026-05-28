@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
+    "formik": "^2.4.9",
     "fuse.js": "^7.3.0",
     "nodemon": "^3.1.14",
     "react": "^19.2.5",
@@ -20,7 +21,8 @@
     "react-modal": "^3.16.3",
     "react-paginate": "^8.3.0",
     "react-select": "^5.10.2",
-    "sweetalert2": "^11.26.24"
+    "sweetalert2": "^11.26.24",
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

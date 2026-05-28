@@ -15,6 +15,7 @@ import Demo1 from "../demo/Demo1";
 import AdditionDemo1 from "../form/AdditionDemo1";
 import AdditionDemo2 from "../form/AdditionDemo2";
 import FormDemo1 from "../form/FormDemo1";
+import FormDemo2 from "../form/FormDemo2";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -54,7 +55,8 @@ function Body() {
       {/* <Demo1 /> */}
       {/* <AdditionDemo1 /> */}
       {/* <AdditionDemo2 /> */}
-      <FormDemo1></FormDemo1>
+      {/* <FormDemo1></FormDemo1> */}
+      <FormDemo2 />
     </div>
   );
 }

@@ -7,6 +7,7 @@ export default function FormDemo1() {
     email: "",
     salary: "",
     phone: "",
+    remark:""
   };
 
   const defaultErrors = {
@@ -15,6 +16,7 @@ export default function FormDemo1() {
     email: "",
     salary: "",
     phone: "",
+    remark:""
   };
 
   const [user, setUser] = useState(defaultUserData);
@@ -71,6 +73,11 @@ export default function FormDemo1() {
           <p>
             Phone: <input name="phone" value={user.phone} onChange={changeHandler} />
             <span className="text-danger">{errors.phone}</span>
+          </p>
+
+          <p>
+            Remark: <textarea name="remark" value={user.remark} onChange={changeHandler}></textarea>
+            <span className="text-danger">{errors.remark}</span>
           </p>
 
           <input type="reset" value="Reset" />
