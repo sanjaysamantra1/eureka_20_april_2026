@@ -11,9 +11,7 @@ export default function CommentList_Http() {
 
   return <>
     <h3 className="text-center">Comemnt List Using Http</h3>
-
     <button onClick={fetchCommentsData}>fetch Data</button>
-
     <table className="table table-bordered">
         <tbody>
             {comments.map(comment=>{
