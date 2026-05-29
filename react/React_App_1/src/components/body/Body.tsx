@@ -17,16 +17,17 @@ import AdditionDemo2 from "../form/AdditionDemo2";
 import FormDemo1 from "../form/FormDemo1";
 import FormDemo2 from "../form/FormDemo2";
 import Folder from "../folder_explorer/Folder";
-import folderData from '../folder_explorer/data.json'
+import folderData from "../folder_explorer/data.json";
+import UserList_Http from "../http/UserList_Http";
 
 function Body() {
   /*  console.log(addition(10, 20));
   console.log(sub(10, 20));
   console.log(mul(10, 20));
   console.log(React); */
-  const f1FromBody = ()=>{
-    console.log('I am f1 from Body Component')
-  }
+  const f1FromBody = () => {
+    console.log("I am f1 from Body Component");
+  };
 
   return (
     <div className="myBody" style={{ minHeight: "300px" }}>
@@ -59,7 +60,8 @@ function Body() {
       {/* <AdditionDemo2 /> */}
       {/* <FormDemo1></FormDemo1> */}
       {/* <FormDemo2 /> */}
-      <Folder folderInfo={folderData} />
+      {/* <Folder folderInfo={folderData} /> */}
+      <UserList_Http />
     </div>
   );
 }
