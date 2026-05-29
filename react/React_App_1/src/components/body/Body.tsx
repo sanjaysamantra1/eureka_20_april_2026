@@ -19,6 +19,7 @@ import FormDemo2 from "../form/FormDemo2";
 import Folder from "../folder_explorer/Folder";
 import folderData from "../folder_explorer/data.json";
 import UserList_Http from "../http/UserList_Http";
+import CommentList_Http from "../http/CommentList_Http";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -61,7 +62,8 @@ function Body() {
       {/* <FormDemo1></FormDemo1> */}
       {/* <FormDemo2 /> */}
       {/* <Folder folderInfo={folderData} /> */}
-      <UserList_Http />
+      {/* <UserList_Http /> */}
+      <CommentList_Http />
     </div>
   );
 }

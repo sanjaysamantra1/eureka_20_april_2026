@@ -3,13 +3,19 @@ import { useState } from "react";
 export default function UserList_Http() {
   const [users, setUsers] = useState([]);
 
-  const fetchUserData = () => {
+  /* const fetchUserData = () => {
     fetch("https://jsonplaceholder.typicode.com/users").then((response) => {
       response.json().then((finalResponse) => {
         console.log(finalResponse);
         setUsers([...finalResponse]);
       });
     });
+  }; */
+
+  const fetchUserData = async () => {
+    let response = await fetch("https://jsonplaceholder.typicode.com/users");
+    let finalResponse = await response.json();
+    setUsers([...finalResponse]);
   };
 
   return (
