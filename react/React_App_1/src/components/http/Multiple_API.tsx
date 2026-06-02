@@ -5,12 +5,12 @@ export default function Multiple_API() {
   const [data, setData] = useState([]);
 
   const fetchData = async () => {
-    const promise1 = axios.get("https://api.github.com/users/sanjaysamantra1");
-    const promise2 = axios.get("https://api.github.com/users/srinidhi-11");
+    const promise1 = axios.get("https://api.github.com/users/defunkt");
+    const promise2 = axios.get("https://api.github.com/users/evanphx");
     const promise3 = axios.get("https://api.github.com/users/chandu09052002");
     const responseArr = await axios.all([promise1, promise2, promise3]);
-    let responseData = responseArr.map(response=>response.data);
-    console.log(responseData)
+    let responseData = responseArr.map((response) => response.data);
+    console.log(responseData);
     setData(responseData);
   };
 
@@ -22,18 +22,20 @@ export default function Multiple_API() {
 
       <table className="table table-bordered">
         <tbody>
-            {data.map((obj)=>{
-                return <tr key={obj.id}>
-                    <td>{obj.id}</td>
-                    <td>{obj.login}</td>
-                    <td>{obj.bio}</td>
-                    <td>{obj.email}</td>
-                    <td>{obj.public_repos}</td>
-                    <td>{obj.followers}</td>
-                </tr>
-            })}
+          {data.map((obj) => {
+            return (
+              <tr key={obj.id}>
+                <td>{obj.id}</td>
+                <td>{obj.login}</td>
+                <td>{obj.bio}</td>
+                <td>{obj.email}</td>
+                <td>{obj.public_repos}</td>
+                <td>{obj.followers}</td>
+              </tr>
+            );
+          })}
         </tbody>
-    </table>
+      </table>
     </>
   );
 }
