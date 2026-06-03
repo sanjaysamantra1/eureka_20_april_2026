@@ -22,6 +22,7 @@ import UserList_Http from "../http/UserList_Http";
 import CommentList_Http from "../http/CommentList_Http";
 import ToDoList_Http from "../http/ToDoList_Http";
 import Multiple_API from "../http/Multiple_API";
+import PersonCRUD_Http from "../http/PersonCRUD_Http";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -68,6 +69,7 @@ function Body() {
       {/* <CommentList_Http /> */}
       {/* <ToDoList_Http/> */}
       {/* <Multiple_API/> */}
+      <PersonCRUD_Http />
     </div>
   );
 }
