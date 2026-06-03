@@ -5,7 +5,7 @@ export default function CommentList_Http() {
   const [comments,setComments] = useState([]);
 
   const fetchCommentsData = async()=>{
-    let response = await axios.get('https://jsonplaceholder.typicode.com/comments');
+    let response = await axios.get('https://jsonplaceholder.typicode.com/omments');
     setComments(response.data);
   }
 

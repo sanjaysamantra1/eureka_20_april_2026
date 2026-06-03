@@ -67,7 +67,7 @@ function Body() {
       {/* <UserList_Http /> */}
       {/* <CommentList_Http /> */}
       {/* <ToDoList_Http/> */}
-      <Multiple_API/>
+      {/* <Multiple_API/> */}
     </div>
   );
 }

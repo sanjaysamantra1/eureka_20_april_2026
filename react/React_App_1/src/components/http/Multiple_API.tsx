@@ -9,6 +9,7 @@ export default function Multiple_API() {
     const promise2 = axios.get("https://api.github.com/users/evanphx");
     const promise3 = axios.get("https://api.github.com/users/chandu09052002");
     const responseArr = await axios.all([promise1, promise2, promise3]);
+    console.log(responseArr)
     let responseData = responseArr.map((response) => response.data);
     console.log(responseData);
     setData(responseData);

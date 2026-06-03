@@ -87,17 +87,20 @@ day_23_may_26(React_day_10)
 https://zoom.us/rec/share/se-mffhvigyuLrU2jCAJIfOsEqGt6k9bvQMjR5wa6aArucYrBWiGiZ3GJSzjnyMo.hmCWLZR13wZVRhcr 
 Passcode: iX0#fYN%
 
-
 day_24_may_27(React_day_11)
 https://zoom.us/rec/share/RP8q6DLtzlFmF_RY1ku-rTwJOkaGaak6mXbUR11ihGBM0Ypy-C0fM5eSUbHKufCm.e0vQh2nkA65ShJDX 
 Passcode: Y*GW4WYt
-
 
 day_25_may_28(React_day_12)
 https://zoom.us/rec/share/jzLrqAujRExlISZ5FsqNN0ln4dssMXSwLJ6E7cT9cCaeIofNibSTW2BlXdBFfsSN.QbJNBUkRRuyd9x2_ 
 Passcode: PL%N9s^X
 
-
 day_26_may_29(React_day_13)
 https://zoom.us/rec/share/9e_HfAiL5EGaCQoY_2Xr5woXoi3ftPGP-bs2Iom5SJc6zXUxTyqA2CeAVOqQ-kGl.YP84g3DLinkUHm5c 
 Passcode: ?1BPBH%!
+
+day_27_june_2(React_day_14)
+https://zoom.us/rec/share/bmxvdC1pEwf5xTpP8nIqHTnmYDLx13Cb-5dcHmdc8jpOIAdxUBsuISB1FSLeuBoV.1r8Nho2bVZSAYY43 
+Passcode: &*D$rn36
+
+day_28_june_3(React_day_15)
