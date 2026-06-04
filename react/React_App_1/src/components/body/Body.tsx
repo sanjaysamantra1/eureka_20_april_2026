@@ -23,6 +23,8 @@ import CommentList_Http from "../http/CommentList_Http";
 import ToDoList_Http from "../http/ToDoList_Http";
 import Multiple_API from "../http/Multiple_API";
 import EmployeeCRUD_Http from "../http/EmployeeCRUD_Http";
+import UseEffectDemo1 from "../hooks/UseEffectDemo1";
+import UserDetails from "../hooks/UserDetails";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -69,7 +71,9 @@ function Body() {
       {/* <CommentList_Http /> */}
       {/* <ToDoList_Http/> */}
       {/* <Multiple_API/> */}
-      <EmployeeCRUD_Http />
+      {/* <EmployeeCRUD_Http /> */}
+      {/* <UseEffectDemo1/> */}
+      <UserDetails />
     </div>
   );
 }
