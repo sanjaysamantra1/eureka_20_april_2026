@@ -106,3 +106,7 @@ Passcode: &*D$rn36
 day_28_june_3(React_day_15)
 https://zoom.us/rec/share/1pyrS8hPwUzQ0Qewq8Sz9TEcsH-MrxRy6lSym9Mpk6D7TmiJ06FCsCTo_usCLNJr.JYgm7bxJ6Cqs_nxb 
 Passcode: Jf!#8kfd
+
+day_29_june_4(React_day_16)
+https://zoom.us/rec/share/sYy3vahECN230VqEsXLhfqKj9oR_YdHHoi4n1HUdQb1tQ3eUvzgETC7DhOC5Jj2a.lVkRLKc3dVV3BFen 
+Passcode: KKK?sG8x
