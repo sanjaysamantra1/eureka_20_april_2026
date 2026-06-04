@@ -25,6 +25,7 @@ import Multiple_API from "../http/Multiple_API";
 import EmployeeCRUD_Http from "../http/EmployeeCRUD_Http";
 import UseEffectDemo1 from "../hooks/UseEffectDemo1";
 import UserDetails from "../hooks/UserDetails";
+import UseMemoTest from "../hooks/UseMemoTest";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -73,7 +74,8 @@ function Body() {
       {/* <Multiple_API/> */}
       {/* <EmployeeCRUD_Http /> */}
       {/* <UseEffectDemo1/> */}
-      <UserDetails />
+      {/* <UserDetails /> */}
+      <UseMemoTest/>
     </div>
   );
 }
