@@ -60,7 +60,7 @@ function Body() {
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s' />
       </MyModal> */}
 
-      {/* <Counter /> */}
+      <Counter />
       {/* <ProductList2 /> */}
       {/* <Demo1 /> */}
       {/* <AdditionDemo1 /> */}
@@ -75,7 +75,7 @@ function Body() {
       {/* <EmployeeCRUD_Http /> */}
       {/* <UseEffectDemo1/> */}
       {/* <UserDetails /> */}
-      <UseMemoTest/>
+      {/* <UseMemoTest/> */}
     </div>
   );
 }
