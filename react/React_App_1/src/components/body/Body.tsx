@@ -26,6 +26,9 @@ import EmployeeCRUD_Http from "../http/EmployeeCRUD_Http";
 import UseEffectDemo1 from "../hooks/UseEffectDemo1";
 import UserDetails from "../hooks/UserDetails";
 import UseMemoTest from "../hooks/UseMemoTest";
+import EventDemo1 from "../events/EventDemo1";
+import ClickCounter from "../HOC/ClickCounter";
+import HoverCounter from "../HOC/HoverCounter";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -60,7 +63,7 @@ function Body() {
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s' />
       </MyModal> */}
 
-      <Counter />
+      {/* <Counter /> */}
       {/* <ProductList2 /> */}
       {/* <Demo1 /> */}
       {/* <AdditionDemo1 /> */}
@@ -76,6 +79,9 @@ function Body() {
       {/* <UseEffectDemo1/> */}
       {/* <UserDetails /> */}
       {/* <UseMemoTest/> */}
+      {/* <EventDemo1/> */}
+      <ClickCounter/>
+      <HoverCounter/>
     </div>
   );
 }
