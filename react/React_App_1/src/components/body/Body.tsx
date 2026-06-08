@@ -29,6 +29,7 @@ import UseMemoTest from "../hooks/UseMemoTest";
 import EventDemo1 from "../events/EventDemo1";
 import ClickCounter from "../HOC/ClickCounter";
 import HoverCounter from "../HOC/HoverCounter";
+import MyCounter from "../HOC/MyCounter";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -80,8 +81,9 @@ function Body() {
       {/* <UserDetails /> */}
       {/* <UseMemoTest/> */}
       {/* <EventDemo1/> */}
-      <ClickCounter/>
-      <HoverCounter/>
+      {/* <ClickCounter/>
+      <HoverCounter/> */}
+      <MyCounter/>
     </div>
   );
 }
