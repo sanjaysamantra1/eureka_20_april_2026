@@ -30,6 +30,12 @@ import EventDemo1 from "../events/EventDemo1";
 import ClickCounter from "../HOC/ClickCounter";
 import HoverCounter from "../HOC/HoverCounter";
 import MyCounter from "../HOC/MyCounter";
+import { Route, Routes } from "react-router-dom";
+import Home from "../routing/Home";
+import AboutUs from "../routing/AboutUs";
+import Careers from "../routing/Careers";
+import ContactUs from "../routing/ContactUs";
+import NotFound from "../routing/NotFound";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -83,7 +89,16 @@ function Body() {
       {/* <EventDemo1/> */}
       {/* <ClickCounter/>
       <HoverCounter/> */}
-      <MyCounter/>
+      {/* <MyCounter/> */}
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/contactus" element={<ContactUs />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   );
 }
