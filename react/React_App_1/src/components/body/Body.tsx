@@ -24,7 +24,6 @@ import ToDoList_Http from "../http/ToDoList_Http";
 import Multiple_API from "../http/Multiple_API";
 import EmployeeCRUD_Http from "../http/EmployeeCRUD_Http";
 import UseEffectDemo1 from "../hooks/UseEffectDemo1";
-import UserDetails from "../hooks/UserDetails";
 import UseMemoTest from "../hooks/UseMemoTest";
 import EventDemo1 from "../events/EventDemo1";
 import ClickCounter from "../HOC/ClickCounter";
@@ -36,6 +35,8 @@ import AboutUs from "../routing/AboutUs";
 import Careers from "../routing/Careers";
 import ContactUs from "../routing/ContactUs";
 import NotFound from "../routing/NotFound";
+import UserDetails from "../routing/UserDetail";
+import UserDetail from "../routing/UserDetail";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -97,6 +98,9 @@ function Body() {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/users" element={<UserList />} />
+        <Route path="/userdetails/:id" element={<UserDetail />} />
+        <Route path="/products" element={<ProductList />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
