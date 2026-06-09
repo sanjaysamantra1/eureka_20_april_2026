@@ -37,6 +37,7 @@ import ContactUs from "../routing/ContactUs";
 import NotFound from "../routing/NotFound";
 import UserDetails from "../routing/UserDetail";
 import UserDetail from "../routing/UserDetail";
+import ProductDetails from "../routing/ProductDetails";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -101,6 +102,7 @@ function Body() {
         <Route path="/users" element={<UserList />} />
         <Route path="/userdetails/:id" element={<UserDetail />} />
         <Route path="/products" element={<ProductList />} />
+        <Route path="/productdetails" element={<ProductDetails />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
