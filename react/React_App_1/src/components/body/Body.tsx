@@ -38,6 +38,10 @@ import NotFound from "../routing/NotFound";
 import UserDetails from "../routing/UserDetail";
 import UserDetail from "../routing/UserDetail";
 import ProductDetails from "../routing/ProductDetails";
+import PermanentJobs from "../routing/PermanentJobs";
+import ContractJobs from "../routing/ContractJobs";
+import UploadVideos from "../routing/UploadVideos";
+import ProtectedRoute from "../routing/ProtectedRoute";
 
 function Body() {
   /*  console.log(addition(10, 20));
@@ -94,15 +98,24 @@ function Body() {
       {/* <MyCounter/> */}
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route  path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/careers" element={<Careers />} />
+        <Route path="/careers" element={<Careers />}>
+            <Route index element={<PermanentJobs />} />
+            <Route path="/careers/permanent" element={<PermanentJobs />} />
+            <Route path="/careers/contract" element={<ContractJobs />} />
+        </Route>
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/users" element={<UserList />} />
         <Route path="/userdetails/:id" element={<UserDetail />} />
         <Route path="/products" element={<ProductList />} />
         <Route path="/productdetails" element={<ProductDetails />} />
+        <Route path="/upload" element={
+          <ProtectedRoute>
+            <UploadVideos />
+          </ProtectedRoute>
+        } />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
