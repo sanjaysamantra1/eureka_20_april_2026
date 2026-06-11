@@ -6,10 +6,10 @@ export default function ProductList2() {
 
   const categorySet = new Set();
   categorySet.add('all')
-  for(let product of productArr){
+  for(const product of productArr){
     categorySet.add(product.category)
   }
-  let categoryArr = [...categorySet];
+  const categoryArr = [...categorySet];
 
   const sortAsc =()=>{
     const sortedData = productArr.sort((p1,p2)=>p1.price-p2.price);

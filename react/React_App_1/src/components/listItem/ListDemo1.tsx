@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ListDemo1() {
-  let carArr = ["Tata", "Honda", "Maruti", "Hyundai", "Toyota"];
+  const carArr = ["Tata", "Honda", "Maruti", "Hyundai", "Toyota"];
 
   return <>
     <h3>Car List:</h3>
