@@ -1,14 +1,13 @@
 import { describe, expect, test } from "vitest";
 import add, { sumOfDigits } from "../../src/utils/math.utils";
 
-describe("This is Test Suite For Math file", () => {
-  test("Should Test add function", () => {
-    expect(add(10, 20)).toBe(30);
-    expect(add(-10, 20)).toBe(10);
-    expect(add(10, -20)).toBe(-10);
-    expect(add(-10, -20)).toBe(-30);
+describe("testing math utility functions", () => {
+  test("testing add function", () => {
+    expect(add(2, 3)).toBe(5);
+    expect(add(-2, 3)).toBe(1);
+    expect(add(2, -3)).toBe(-1);
+    expect(add(-2, -3)).toBe(-5);
   });
-
   test("Should Test sumofdigits function", () => {
     expect(sumOfDigits(125)).toBe(8);
   });

@@ -18,3 +18,7 @@ export function sumOfDigits(num: number) {
   }
   return sum;
 }
+
+export function isEven(num: number) {
+  return num % 2 == 0;
+}
