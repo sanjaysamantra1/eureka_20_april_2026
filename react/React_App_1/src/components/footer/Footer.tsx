@@ -1,6 +1,8 @@
+import { useTime } from "../../utils/TimeContext";
 import MyModal from "../props/MyModal";
 
 function Footer() {
+  const time = useTime();
   return (
     <footer className="py-3 my-4 bg-dark text-white">
       {" "}
@@ -11,7 +13,7 @@ function Footer() {
             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmRlwbWH3kPMJ32C3qDf4HcI_f8gBfUrb6ww&s' />
           </MyModal> */}
           <a href="#" className="nav-link px-2 ">
-            Home
+            Home-{time}
           </a>
         </li>{" "}
         <li className="nav-item">
